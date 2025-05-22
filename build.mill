@@ -1,0 +1,19 @@
+//| mill-version: 1.0.0-M1-13-54815e
+//| mill-jvm-version: temurin:21.0.1
+//| mvnDeps:
+//| - uk.org.wilton::ietf-yang-mill-plugin::0.0.2
+//| - uk.org.wilton::yang-pkg-lib:0.0.5
+//| - uk.org.wilton::mill-plugin::0.0.5
+package build
+
+import mill._
+import uk.org.wilton.ietf.yang.mill.plugin._
+
+object `package` extends IETF {
+  def draft = Task.Source { "draft-wilton-netmod-ietf-yang-pkg-defns.md" }
+
+  def all = Task {
+    checkDraftLatest()
+    make()
+  }
+}
