@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-rtg-plcy-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.713201Z",
+        "timestamp": "2025-05-25T17:29:18.736194Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "IETF Routing Policy YANG module",
@@ -35,14 +35,14 @@
             {
               "name": "ietf-interfaces",
               "version": "2018-02-20",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
               ]
             },
             {
               "name": "ietf-routing",
               "version": "2018-03-13",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
               ]
             }

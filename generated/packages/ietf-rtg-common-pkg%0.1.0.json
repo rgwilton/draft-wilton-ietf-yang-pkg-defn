@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-rtg-common-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.711021Z",
+        "timestamp": "2025-05-25T17:29:18.736144Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "Common modules for IETF routing",

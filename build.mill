@@ -2,8 +2,8 @@
 //| mill-jvm-version: temurin:21.0.1
 //| mvnDeps:
 //| - uk.org.wilton::ietf-yang-mill-plugin::0.0.2
-//| - uk.org.wilton::yang-pkg-lib:0.0.5
-//| - uk.org.wilton::mill-plugin::0.0.5
+//| - uk.org.wilton::yang-pkg-lib:0.0.6
+//| - uk.org.wilton::mill-plugin::0.0.6
 package build
 
 import mill._

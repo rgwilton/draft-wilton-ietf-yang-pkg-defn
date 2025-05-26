@@ -42,11 +42,10 @@ object IetfBasicNetworkDevicePkg extends IetfPkgDefn {
   def reference = 
     "RFC 8349, RFC 8343, RFC 8344, RFC 8348"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfCommonTypesBasePkg.ref())
-  }
+  def includedPackages = 
+    Seq(IetfCommonTypesBasePkg)
 
-  def ietfModules = Seq(
+  def modules = Seq(
     // Hardware
     "ietf-hardware@2018-03-13",
 
@@ -60,7 +59,7 @@ object IetfBasicNetworkDevicePkg extends IetfPkgDefn {
     "ietf-ipv6-unicast-routing@2018-03-13",
   )
 
-  def ietfImportOnlyModules = Seq(
+  def importOnlyModules = Seq(
     "iana-hardware@2018-03-13"
   )
 }
@@ -79,16 +78,14 @@ object IetfNiDevicePkg extends IetfPkgDefn {
     "A network device supporting network instances using schema mount"
   def reference = "RFC 8529"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfBasicNetworkDevicePkg.ref())
-  }
+  def includedPackages = Seq(IetfBasicNetworkDevicePkg)
 
-  def ietfModules = Seq(
+  def modules = Seq(
     "ietf-network-instance@2019-01-21",
     "ietf-yang-schema-mount@2019-01-14",
   )
 
-  def ietfImportOnlyModules = Seq()
+  def importOnlyModules = Seq()
 
   // TODO - Do we need to add minimal modules at the network instance mount
   // point?

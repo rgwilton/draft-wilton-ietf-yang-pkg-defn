@@ -1,0 +1,46 @@
+{
+  "yangPkg": {
+    "name": "ietf-rtg-common-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693156Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "Common modules for IETF routing",
+    "reference": "RFC 8349",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-routing",
+          "version": "2018-03-13",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+          ]
+        },
+        {
+          "name": "ietf-key-chain",
+          "version": "2017-06-15",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-key-chain@2017-06-15.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-routing": {
+      "name": "ietf-routing",
+      "version": "2018-03-13",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+      ]
+    },
+    "ietf-key-chain": {
+      "name": "ietf-key-chain",
+      "version": "2017-06-15",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-key-chain@2017-06-15.yang"
+      ]
+    }
+  }
+}

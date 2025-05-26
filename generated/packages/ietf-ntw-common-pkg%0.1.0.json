@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-ntw-common-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.704740Z",
+        "timestamp": "2025-05-25T17:29:18.724944Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "Common modules for IETF Network YANG packages",
@@ -26,42 +26,42 @@
             {
               "name": "ietf-vpn-common",
               "version": "2021-03-01",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-vpn-common@2021-03-01.yang"
               ]
             },
             {
               "name": "iana-bgp-l2-encaps",
               "version": "2022-01-01",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/iana-bgp-l2-encaps@2022-01-01.yang"
               ]
             },
             {
               "name": "iana-pseudowire-types",
               "version": "2022-01-01",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/iana-pseudowire-types@2022-01-01.yang"
               ]
             },
             {
               "name": "ietf-ethernet-segment",
               "version": "2022-01-01",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-ethernet-segment@2022-01-01.yang"
               ]
             },
             {
               "name": "ietf-routing-types",
               "version": "2018-03-13",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-routing-types@2018-03-13.yang"
               ]
             },
             {
               "name": "ieee802-dot1q-types",
               "version": "2018-01-01",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ieee802-dot1q-types@2018-01-01.yang"
               ]
             }

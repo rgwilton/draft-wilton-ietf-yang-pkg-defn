@@ -1,0 +1,56 @@
+{
+  "yangPkg": {
+    "name": "ietf-ntw-l2vpn-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693163Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "IETF L2VPN Network YANG modules based on RFC 9182",
+    "reference": "RFC 9182",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-l2vpn-ntw",
+          "version": "2021-10-15",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-ntw@2021-10-15.yang"
+          ]
+        }
+      ],
+      "import-only-module": [
+        {
+          "name": "ietf-interfaces",
+          "version": "2018-02-20",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-l2vpn-ntw": {
+      "name": "ietf-l2vpn-ntw",
+      "version": "2021-10-15",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-ntw@2021-10-15.yang"
+      ]
+    }
+  },
+  "importOnlyModules": [
+    [
+      [
+        "ietf-interfaces",
+        "2018-02-20"
+      ],
+      {
+        "name": "ietf-interfaces",
+        "version": "2018-02-20",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+        ]
+      }
+    ]
+  ]
+}

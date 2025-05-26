@@ -1,0 +1,32 @@
+{
+  "yangPkg": {
+    "name": "ietf-svc-l2vpn-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693132Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "IETF L2VPN Service YANG modules",
+    "reference": "RFC 8466",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-l2vpn-svc",
+          "version": "2018-10-09",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-svc@2018-10-09.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-l2vpn-svc": {
+      "name": "ietf-l2vpn-svc",
+      "version": "2018-10-09",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-svc@2018-10-09.yang"
+      ]
+    }
+  }
+}

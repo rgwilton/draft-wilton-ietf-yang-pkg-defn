@@ -1,0 +1,138 @@
+{
+  "yangPkg": {
+    "name": "ietf-ntw-common-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693132Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "Common modules for IETF Network YANG packages",
+    "reference": "RFC 9182, RFC 9291",
+    "complete": false,
+    "includes": {
+      "import-only-module": [
+        {
+          "name": "ietf-vpn-common",
+          "version": "2021-03-01",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-vpn-common@2021-03-01.yang"
+          ]
+        },
+        {
+          "name": "iana-bgp-l2-encaps",
+          "version": "2022-01-01",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/iana-bgp-l2-encaps@2022-01-01.yang"
+          ]
+        },
+        {
+          "name": "iana-pseudowire-types",
+          "version": "2022-01-01",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/iana-pseudowire-types@2022-01-01.yang"
+          ]
+        },
+        {
+          "name": "ietf-ethernet-segment",
+          "version": "2022-01-01",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-ethernet-segment@2022-01-01.yang"
+          ]
+        },
+        {
+          "name": "ietf-routing-types",
+          "version": "2018-03-13",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-routing-types@2018-03-13.yang"
+          ]
+        },
+        {
+          "name": "ieee802-dot1q-types",
+          "version": "2018-01-01",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ieee802-dot1q-types@2018-01-01.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "importOnlyModules": [
+    [
+      [
+        "ietf-vpn-common",
+        "2021-03-01"
+      ],
+      {
+        "name": "ietf-vpn-common",
+        "version": "2021-03-01",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-vpn-common@2021-03-01.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ieee802-dot1q-types",
+        "2018-01-01"
+      ],
+      {
+        "name": "ieee802-dot1q-types",
+        "version": "2018-01-01",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ieee802-dot1q-types@2018-01-01.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ietf-ethernet-segment",
+        "2022-01-01"
+      ],
+      {
+        "name": "ietf-ethernet-segment",
+        "version": "2022-01-01",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-ethernet-segment@2022-01-01.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "iana-pseudowire-types",
+        "2022-01-01"
+      ],
+      {
+        "name": "iana-pseudowire-types",
+        "version": "2022-01-01",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/iana-pseudowire-types@2022-01-01.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ietf-routing-types",
+        "2018-03-13"
+      ],
+      {
+        "name": "ietf-routing-types",
+        "version": "2018-03-13",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-routing-types@2018-03-13.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "iana-bgp-l2-encaps",
+        "2022-01-01"
+      ],
+      {
+        "name": "iana-bgp-l2-encaps",
+        "version": "2022-01-01",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/iana-bgp-l2-encaps@2022-01-01.yang"
+        ]
+      }
+    ]
+  ]
+}

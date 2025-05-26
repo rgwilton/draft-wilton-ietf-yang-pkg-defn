@@ -32,13 +32,11 @@ object IetfNtwCommonPkg extends IetfNtwPkgDefn {
   def description = "Common modules for IETF Network YANG packages"
   def reference = "RFC 9182, RFC 9291"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfCommonTypesBasePkg.ref())
-  }
+  def includedPackages = Seq(IetfCommonTypesBasePkg)
 
-  def ietfModules = Seq()
+  def modules = Seq()
 
-  def ietfImportOnlyModules =
+  def importOnlyModules =
     Seq(
       "ietf-vpn-common@2021-03-01",
       "iana-bgp-l2-encaps@2022-01-01",
@@ -58,14 +56,13 @@ object IetfL3vpnNtwPkg extends IetfNtwPkgDefn {
   def description = "IETF L3VPN Network YANG modules"
   def reference = "RFC 9291"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfNtwCommonPkg.ref())
-  }
+  def includedPackages =
+    Seq(IetfNtwCommonPkg)
 
-  def ietfModules = 
+  def modules = 
     Seq("ietf-l3vpn-ntw@2022-09-20")
 
-  def ietfImportOnlyModules = Seq()
+  def importOnlyModules = Seq()
 }
 
 /**
@@ -78,13 +75,12 @@ object IetfL2vpnNtwPkg extends IetfNtwPkgDefn {
     "IETF L2VPN Network YANG modules based on RFC 9182"
   def reference = "RFC 9182"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfNtwCommonPkg.ref())
-  }
+  def includedPackages = 
+    Seq(IetfNtwCommonPkg)
 
-  def ietfModules =
+  def modules =
     Seq("ietf-l2vpn-ntw@2021-10-15")
 
-  def ietfImportOnlyModules =
+  def importOnlyModules =
     Seq("ietf-interfaces@2018-02-20")
 }

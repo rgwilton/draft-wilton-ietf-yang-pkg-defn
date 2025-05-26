@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-yang-types-base-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.679922Z",
+        "timestamp": "2025-05-25T17:29:18.708521Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "Contains base IETF and IANA type modules",
@@ -17,21 +17,21 @@
             {
               "name": "ietf-yang-types",
               "version": "2013-07-15",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-yang-types@2013-07-15.yang"
               ]
             },
             {
               "name": "ietf-inet-types",
               "version": "2013-07-15",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-inet-types@2013-07-15.yang"
               ]
             },
             {
               "name": "ietf-netconf-acm",
               "version": "2018-02-14",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-netconf-acm@2018-02-14.yang"
               ]
             }

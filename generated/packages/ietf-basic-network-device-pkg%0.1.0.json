@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-basic-network-device-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.705621Z",
+        "timestamp": "2025-05-25T17:29:18.725336Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "YANG modules and dependencies for a basic network device.\n\nThis includes, hardware, interfaces, basic IPv4 and IPv6, but excludes\nQoS, ACLs, network-instances and routing protocols.",
@@ -70,7 +70,7 @@
             {
               "name": "iana-hardware",
               "version": "2018-03-13",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/iana-hardware@2018-03-13.yang"
               ]
             }

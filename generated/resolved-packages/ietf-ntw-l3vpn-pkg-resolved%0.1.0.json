@@ -1,0 +1,32 @@
+{
+  "yangPkg": {
+    "name": "ietf-ntw-l3vpn-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693134Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "IETF L3VPN Network YANG modules",
+    "reference": "RFC 9291",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-l3vpn-ntw",
+          "version": "2022-09-20",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-l3vpn-ntw@2022-09-20.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-l3vpn-ntw": {
+      "name": "ietf-l3vpn-ntw",
+      "version": "2022-09-20",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-l3vpn-ntw@2022-09-20.yang"
+      ]
+    }
+  }
+}

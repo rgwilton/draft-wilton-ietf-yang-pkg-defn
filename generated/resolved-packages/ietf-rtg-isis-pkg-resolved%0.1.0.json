@@ -1,0 +1,32 @@
+{
+  "yangPkg": {
+    "name": "ietf-rtg-isis-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693129Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "IETF ISIS Routing Protocol YANG modules",
+    "reference": "RFC 9130",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-isis",
+          "version": "2022-10-19",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-isis@2022-10-19.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-isis": {
+      "name": "ietf-isis",
+      "version": "2022-10-19",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-isis@2022-10-19.yang"
+      ]
+    }
+  }
+}

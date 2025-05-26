@@ -32,11 +32,11 @@ object IetfServiceCommonPkg extends IetfServicePkgDefn {
     "Common type definitions for IETF service YANG modules"
   def reference = "RFC 8466 & RFC 8299"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfCommonTypesBasePkg.ref())
-  }
-  def ietfModules = Seq()
-  def ietfImportOnlyModules = Seq()
+  def includedPackages =
+    Seq(IetfCommonTypesBasePkg)
+
+  def modules = Seq()
+  def importOnlyModules = Seq()
 }
 
 
@@ -50,14 +50,13 @@ object IetfServiceL3vpnPkg extends IetfServicePkgDefn {
     "IETF L3VPN Service YANG modules"
   def reference = "RFC 8299"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfServiceCommonPkg.ref())
-  }
+  def includedPackages =
+    Seq(IetfServiceCommonPkg)
 
-  def ietfModules =
+  def modules =
     Seq("ietf-l3vpn-svc@2018-01-19")
 
-  def ietfImportOnlyModules = Seq()
+  def importOnlyModules = Seq()
 }
 
 
@@ -71,14 +70,13 @@ object IetfServiceL2vpnPkg extends IetfServicePkgDefn {
     "IETF L2VPN Service YANG modules"
   def reference = "RFC 8466"
 
-  def ietfIncludedPackages = Task {
-    Seq(IetfServiceCommonPkg.ref())
-  }
+  def includedPackages =
+    Seq(IetfServiceCommonPkg)
 
-  def ietfModules =
+  def modules =
     Seq("ietf-l2vpn-svc@2018-10-09")
 
-  def ietfImportOnlyModules = Seq()
+  def importOnlyModules = Seq()
 }
 
 
@@ -91,11 +89,10 @@ object IetfServiceAllPkg extends IetfServicePkgDefn {
   def description =
     "All IETF Service YANG modules"
 
-  def ietfPackages = Task {
-    Seq(IetfServiceL2vpnPkg.ref(),
-        IetfServiceL3vpnPkg.ref())
-  }
+  def includedPackages = 
+    Seq(IetfServiceL2vpnPkg,
+         IetfServiceL3vpnPkg)
 
-  def ietfModules = Seq()
-  def ietfImportOnlyModules = Seq()
+  def modules = Seq()
+  def importOnlyModules = Seq()
 }

@@ -1,0 +1,55 @@
+{
+  "yangPkg": {
+    "name": "ietf-svc-all-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.743204Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "All IETF Service YANG modules",
+    "complete": false,
+    "includes": {
+      "package": [
+        {
+          "name": "ietf-svc-l2vpn-pkg",
+          "version": "0.1.0",
+          "location": [
+            "file:///Users/rwilton/git/netmod-wg/draft-wilton-ietf-yang-pkg-defns/out/pkgs/service/IetfServiceL2vpnPkg/writePackage.dest/ietf-svc-l2vpn-pkg%0.1.0.json"
+          ]
+        },
+        {
+          "name": "ietf-svc-l3vpn-pkg",
+          "version": "0.1.0",
+          "location": [
+            "file:///Users/rwilton/git/netmod-wg/draft-wilton-ietf-yang-pkg-defns/out/pkgs/service/IetfServiceL3vpnPkg/writePackage.dest/ietf-svc-l3vpn-pkg%0.1.0.json"
+          ]
+        }
+      ]
+    }
+  },
+  "includedPkgs": [
+    {
+      "name": "ietf-svc-l2vpn-pkg",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ietf-svc-l3vpn-pkg",
+      "version": "0.1.0"
+    }
+  ],
+  "modules": {
+    "ietf-l2vpn-svc": {
+      "name": "ietf-l2vpn-svc",
+      "version": "2018-10-09",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-svc@2018-10-09.yang"
+      ]
+    },
+    "ietf-l3vpn-svc": {
+      "name": "ietf-l3vpn-svc",
+      "version": "2018-01-19",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-l3vpn-svc@2018-01-19.yang"
+      ]
+    }
+  }
+}

@@ -24,8 +24,9 @@ object IetfCommonTypesBasePkg extends IetfPkgDefn {
     "Contains base IETF and IANA type modules"
   def reference = "RFC 6991, RFC 8341"
 
-  def ietfModules = Seq()
-  def ietfImportOnlyModules =
+  def includedPackages = Seq()
+  def modules = Seq()
+  def importOnlyModules =
     Seq("ietf-yang-types@2013-07-15",
         "ietf-inet-types@2013-07-15",
         "ietf-netconf-acm@2018-02-14")

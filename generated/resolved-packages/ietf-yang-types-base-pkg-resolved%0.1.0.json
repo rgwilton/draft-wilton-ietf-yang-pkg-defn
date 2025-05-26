@@ -1,0 +1,78 @@
+{
+  "yangPkg": {
+    "name": "ietf-yang-types-base-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.714733Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "Contains base IETF and IANA type modules",
+    "reference": "RFC 6991, RFC 8341",
+    "complete": false,
+    "includes": {
+      "import-only-module": [
+        {
+          "name": "ietf-yang-types",
+          "version": "2013-07-15",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-yang-types@2013-07-15.yang"
+          ]
+        },
+        {
+          "name": "ietf-inet-types",
+          "version": "2013-07-15",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-inet-types@2013-07-15.yang"
+          ]
+        },
+        {
+          "name": "ietf-netconf-acm",
+          "version": "2018-02-14",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-netconf-acm@2018-02-14.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "importOnlyModules": [
+    [
+      [
+        "ietf-yang-types",
+        "2013-07-15"
+      ],
+      {
+        "name": "ietf-yang-types",
+        "version": "2013-07-15",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-yang-types@2013-07-15.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ietf-inet-types",
+        "2013-07-15"
+      ],
+      {
+        "name": "ietf-inet-types",
+        "version": "2013-07-15",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-inet-types@2013-07-15.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ietf-netconf-acm",
+        "2018-02-14"
+      ],
+      {
+        "name": "ietf-netconf-acm",
+        "version": "2018-02-14",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-netconf-acm@2018-02-14.yang"
+        ]
+      }
+    ]
+  ]
+}

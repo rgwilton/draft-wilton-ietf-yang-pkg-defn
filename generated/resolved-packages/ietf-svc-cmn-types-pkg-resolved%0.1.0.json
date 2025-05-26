@@ -1,0 +1,12 @@
+{
+  "yangPkg": {
+    "name": "ietf-svc-cmn-types-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693156Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "Common type definitions for IETF service YANG modules",
+    "reference": "RFC 8466 & RFC 8299",
+    "complete": false
+  }
+}

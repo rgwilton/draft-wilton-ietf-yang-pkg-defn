@@ -6,7 +6,7 @@
       "ietf-yang-package-instance:package": {
         "name": "ietf-rtg-common-types-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.704470Z",
+        "timestamp": "2025-05-25T17:29:18.724944Z",
         "organization": "IETF",
         "contact": "IESG",
         "description": "Common types for IETF routing YANG modules",
@@ -26,35 +26,35 @@
             {
               "name": "ietf-routing-types",
               "version": "2017-12-04.yang",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-routing-types@2017-12-04.yang.yang"
               ]
             },
             {
               "name": "iana-routing-types",
               "version": "2025-02-18.yang",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/iana-routing-types@2025-02-18.yang.yang"
               ]
             },
             {
               "name": "iana-bfd-types",
               "version": "2021-10-21",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/iana-bfd-types@2021-10-21.yang"
               ]
             },
             {
               "name": "ietf-bfd-types",
               "version": "2022-09-22",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-bfd-types@2022-09-22.yang"
               ]
             },
             {
               "name": "ietf-routing",
               "version": "2018-03-13",
-              "location": [
+              "replaces-version": [
                 "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
               ]
             }

@@ -1,0 +1,126 @@
+{
+  "yangPkg": {
+    "name": "ietf-basic-network-device-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.712048Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "YANG modules and dependencies for a basic network device.\n\nThis includes, hardware, interfaces, basic IPv4 and IPv6, but excludes\nQoS, ACLs, network-instances and routing protocols.",
+    "reference": "RFC 8349, RFC 8343, RFC 8344, RFC 8348",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-hardware",
+          "version": "2018-03-13",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-hardware@2018-03-13.yang"
+          ]
+        },
+        {
+          "name": "ietf-interfaces",
+          "version": "2018-02-20",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+          ]
+        },
+        {
+          "name": "ietf-ip",
+          "version": "2018-02-22",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-ip@2018-02-22.yang"
+          ]
+        },
+        {
+          "name": "ietf-routing",
+          "version": "2018-03-13",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+          ]
+        },
+        {
+          "name": "ietf-ipv4-unicast-routing",
+          "version": "2018-03-13",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-ipv4-unicast-routing@2018-03-13.yang"
+          ]
+        },
+        {
+          "name": "ietf-ipv6-unicast-routing",
+          "version": "2018-03-13",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-ipv6-unicast-routing@2018-03-13.yang"
+          ]
+        }
+      ],
+      "import-only-module": [
+        {
+          "name": "iana-hardware",
+          "version": "2018-03-13",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/iana-hardware@2018-03-13.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-routing": {
+      "name": "ietf-routing",
+      "version": "2018-03-13",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+      ]
+    },
+    "ietf-hardware": {
+      "name": "ietf-hardware",
+      "version": "2018-03-13",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-hardware@2018-03-13.yang"
+      ]
+    },
+    "ietf-ipv4-unicast-routing": {
+      "name": "ietf-ipv4-unicast-routing",
+      "version": "2018-03-13",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-ipv4-unicast-routing@2018-03-13.yang"
+      ]
+    },
+    "ietf-interfaces": {
+      "name": "ietf-interfaces",
+      "version": "2018-02-20",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+      ]
+    },
+    "ietf-ip": {
+      "name": "ietf-ip",
+      "version": "2018-02-22",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-ip@2018-02-22.yang"
+      ]
+    },
+    "ietf-ipv6-unicast-routing": {
+      "name": "ietf-ipv6-unicast-routing",
+      "version": "2018-03-13",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-ipv6-unicast-routing@2018-03-13.yang"
+      ]
+    }
+  },
+  "importOnlyModules": [
+    [
+      [
+        "iana-hardware",
+        "2018-03-13"
+      ],
+      {
+        "name": "iana-hardware",
+        "version": "2018-03-13",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/iana-hardware@2018-03-13.yang"
+        ]
+      }
+    ]
+  ]
+}

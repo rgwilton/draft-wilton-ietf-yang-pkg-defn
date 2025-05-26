@@ -1,0 +1,76 @@
+{
+  "yangPkg": {
+    "name": "ietf-rtg-plcy-pkg",
+    "version": "0.1.0",
+    "timestamp": "2025-05-25T08:20:04.693161Z",
+    "organization": "IETF",
+    "contact": "IESG",
+    "description": "IETF Routing Policy YANG module",
+    "reference": "RFC 9067",
+    "complete": false,
+    "includes": {
+      "module": [
+        {
+          "name": "ietf-routing-policy",
+          "version": "2021-10-11",
+          "location": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-routing-policy@2021-10-11.yang"
+          ]
+        }
+      ],
+      "import-only-module": [
+        {
+          "name": "ietf-interfaces",
+          "version": "2018-02-20",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+          ]
+        },
+        {
+          "name": "ietf-routing",
+          "version": "2018-03-13",
+          "replaces-version": [
+            "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+          ]
+        }
+      ]
+    }
+  },
+  "modules": {
+    "ietf-routing-policy": {
+      "name": "ietf-routing-policy",
+      "version": "2021-10-11",
+      "location": [
+        "https://www.iana.org/assignments/yang-parameters/ietf-routing-policy@2021-10-11.yang"
+      ]
+    }
+  },
+  "importOnlyModules": [
+    [
+      [
+        "ietf-interfaces",
+        "2018-02-20"
+      ],
+      {
+        "name": "ietf-interfaces",
+        "version": "2018-02-20",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+        ]
+      }
+    ],
+    [
+      [
+        "ietf-routing",
+        "2018-03-13"
+      ],
+      {
+        "name": "ietf-routing",
+        "version": "2018-03-13",
+        "replaces-version": [
+          "https://www.iana.org/assignments/yang-parameters/ietf-routing@2018-03-13.yang"
+        ]
+      }
+    ]
+  ]
+}

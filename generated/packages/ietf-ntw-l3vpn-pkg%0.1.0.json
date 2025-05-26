@@ -1,16 +1,16 @@
 {
   "ietf-yang-instance-data:instance-data-set": {
-    "name": "ietf-ntw-l2vpn-pkg",
+    "name": "ietf-ntw-l3vpn-pkg",
     "description": "YANG Package definition",
     "content-data": {
       "ietf-yang-package-instance:package": {
-        "name": "ietf-ntw-l2vpn-pkg",
+        "name": "ietf-ntw-l3vpn-pkg",
         "version": "0.1.0",
-        "timestamp": "2025-05-22T16:47:16.712033Z",
+        "timestamp": "2025-05-25T17:29:18.738683Z",
         "organization": "IETF",
         "contact": "IESG",
-        "description": "IETF L2VPN Network YANG modules based on RFC 9182",
-        "reference": "RFC 9182",
+        "description": "IETF L3VPN Network YANG modules",
+        "reference": "RFC 9291",
         "complete": false,
         "includes": {
           "package": [
@@ -24,19 +24,10 @@
           ],
           "module": [
             {
-              "name": "ietf-l2vpn-ntw",
-              "version": "2021-10-15",
+              "name": "ietf-l3vpn-ntw",
+              "version": "2022-09-20",
               "location": [
-                "https://www.iana.org/assignments/yang-parameters/ietf-l2vpn-ntw@2021-10-15.yang"
-              ]
-            }
-          ],
-          "import-only-module": [
-            {
-              "name": "ietf-interfaces",
-              "version": "2018-02-20",
-              "location": [
-                "https://www.iana.org/assignments/yang-parameters/ietf-interfaces@2018-02-20.yang"
+                "https://www.iana.org/assignments/yang-parameters/ietf-l3vpn-ntw@2022-09-20.yang"
               ]
             }
           ]
